@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Language Filter</title>
+  <style>
+    body { font-family: Arial, sans-serif; min-width: 200px; padding: 10px; }
+    label { display: block; margin-bottom: 8px; }
+    button { margin-top: 10px; width: 100%; }
+  </style>
+</head>
+<body>
+  <h3>Show Only These Languages</h3>
+  <small>Checked languages will remain, unchecked will be hidden.</small>
+  <form id="languageForm">
+    <label><input type="checkbox" name="language" value="en" checked> English</label>
+    <label><input type="checkbox" name="language" value="ru"> Russian</label>
+    <label><input type="checkbox" name="language" value="nl"> Dutch</label>
+    <label><input type="checkbox" name="language" value="de"> German</label>
+    <label><input type="checkbox" name="language" value="fr"> French</label>
+    <button type="submit">Save</button>
+  </form>
+  <script src="popup.js"></script>
+</body>
+</html> 

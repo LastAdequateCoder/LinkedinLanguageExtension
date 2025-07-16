@@ -1,0 +1,1 @@
+// Background service worker for the extension (required by manifest v3) 
