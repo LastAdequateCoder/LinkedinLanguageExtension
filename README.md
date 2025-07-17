@@ -1,4 +1,5 @@
 LinkedIn Language Extension
+
 A Chrome extension that filters LinkedIn job postings — helping users quickly find posts in their preferred language.
 
 🚀 Features
