@@ -1,46 +1,41 @@
-LinkedIn Language Extension
+# 📚 LinkedIn Language Extension
 
 A Chrome extension that filters LinkedIn job postings — helping users quickly find posts in their preferred language.
 
-🚀 Features
-Detects the language of job titles.
+## 🚀 Features
 
-Improves LinkedIn’s default filtering to make job search easier.
+- Detects the language of job titles.
+- Improves LinkedIn’s default filtering to make job search easier.
 
-⚙️ Motivation
-LinkedIn often lacks fine-grained language filters. This extension helps multilingual job seekers efficiently filter job postings by language—saving time and reducing frustration.
+## ⚙️ Motivation
 
-🛠️ How It Works
-Intercepts LinkedIn’s API responses or observes the DOM.
+LinkedIn often lacks fine-grained language filters. This extension helps multilingual job seekers efficiently filter job postings by language — saving time and reducing frustration.
 
-Extracts job title and description text.
+## 🛠️ How It Works
 
-Runs a language detection algorithm.
+- Intercepts LinkedIn’s API responses or observes the DOM.
+- Extracts job title and description text.
+- Runs a language detection algorithm.
+- Hides job posts in languages other than the specified one.
 
-Hides job posts in other languages other than given.
+## 🔧 Installation
 
-🔧 Installation
-Clone or download the repo.
+1. Clone or download this repository.
+2. Open Chrome and navigate to `chrome://extensions`.
+3. Enable **Developer mode** (toggle switch at the top right).
+4. Click **Load unpacked** and select the project folder.
+5. Refresh LinkedIn — language filtering is now active!
 
-Open Chrome and go to chrome://extensions.
+## 📚 Dependencies
 
-Enable Developer mode.
+- A JavaScript language detection library
 
-Click Load unpacked and select the project folder.
+## 🔧 Usage
 
-Refresh LinkedIn and watch language tags appear!
+Once loaded, the extension works automatically in the background. If you deactivate or unload it, language filtering will stop.
 
-📂 File Structure
-pgsql
-Copy
-Edit
-├── manifest.json       # Chrome extension metadata
-├── scripts/            # Core JS logic (language detection, DOM injection)
-├── css/                # Styling for tags
-└── views/              # UI components (if any popups/options)
-📚 Dependencies
-A JavaScript language detection library
+---
+
+Feel free to contribute or suggest improvements!
 
 
-🔧 Usage
-Once loaded, the extension works automatically. If you deactivate or unload it, the tags disappear.
